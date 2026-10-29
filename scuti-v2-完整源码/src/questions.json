@@ -1,0 +1,489 @@
+[
+  {
+    "id": "Q01",
+    "text": "路过围合里的猫时，我会停下来观察它，哪怕并不打算拍照发朋友圈。",
+    "primary": "Cater",
+    "reverse": false,
+    "weights": {
+      "Cater": 2
+    },
+    "rationale": "直接证据：题目询问本类型的具体校园行为。"
+  },
+  {
+    "id": "Q02",
+    "text": "学习卡住或有压力时，我会用打游戏来缓一缓，结果常常比计划玩得久。",
+    "primary": "Gamer",
+    "reverse": false,
+    "weights": {
+      "Gamer": 2
+    },
+    "rationale": "直接证据：题目询问本类型的具体校园行为。"
+  },
+  {
+    "id": "Q03",
+    "text": "即使很想去做别的事，我也不会把自己的课交给别人替我上。",
+    "primary": "Exchanger",
+    "reverse": true,
+    "weights": {
+      "Exchanger": -2
+    },
+    "rationale": "反向证据：较高频率降低本类型的对应行为倾向；只计一次反向。"
+  },
+  {
+    "id": "Q04",
+    "text": "路过喜欢的小吃摊时，只要不在原来的购买计划里，我通常就不会买。",
+    "primary": "Eater",
+    "reverse": true,
+    "weights": {
+      "Eater": -2
+    },
+    "rationale": "反向证据：较高频率降低本类型的对应行为倾向；只计一次反向。"
+  },
+  {
+    "id": "Q05",
+    "text": "自习时收到组队邀请，我通常会先完成原定任务，再决定要不要加入。",
+    "primary": "Gamer",
+    "reverse": true,
+    "weights": {
+      "Gamer": -2
+    },
+    "rationale": "反向证据：较高频率降低本类型的对应行为倾向；只计一次反向。"
+  },
+  {
+    "id": "Q06",
+    "text": "为了尝一家新发现的小店，我会多走一段路，而不是就近吃熟悉的那家。",
+    "primary": "Explorer",
+    "reverse": false,
+    "weights": {
+      "Explorer": 2
+    },
+    "rationale": "直接证据：题目询问本类型的具体校园行为。"
+  },
+  {
+    "id": "Q07",
+    "text": "面对新认识、可能有好感的人，我通常等对方先来找我，而不是主动展示自己。",
+    "primary": "CPDDer",
+    "reverse": true,
+    "weights": {
+      "CPDDer": -2
+    },
+    "rationale": "反向证据：较高频率降低本类型的对应行为倾向；只计一次反向。"
+  },
+  {
+    "id": "Q08",
+    "text": "在不熟悉的餐馆和吃惯的老店之间，我通常直接选老店，不想尝试。",
+    "primary": "Explorer",
+    "reverse": true,
+    "weights": {
+      "Explorer": -2
+    },
+    "rationale": "反向证据：较高频率降低本类型的对应行为倾向；只计一次反向。"
+  },
+  {
+    "id": "Q09",
+    "text": "晚上的聚会结束后，有人提议再去下一场，我会愿意继续待在外面。",
+    "primary": "Outer",
+    "reverse": false,
+    "weights": {
+      "Outer": 2
+    },
+    "rationale": "直接证据：题目询问本类型的具体校园行为。"
+  },
+  {
+    "id": "Q10",
+    "text": "遇到有好感的新同学时，我会主动创造话题，让对方记住自己。",
+    "primary": "CPDDer",
+    "reverse": false,
+    "weights": {
+      "CPDDer": 2
+    },
+    "rationale": "直接证据：题目询问本类型的具体校园行为。"
+  },
+  {
+    "id": "Q11",
+    "text": "即使刚决定少花钱，我也会为了眼前想吃的小零食临时加单。",
+    "primary": "Eater",
+    "reverse": false,
+    "weights": {
+      "Eater": 2
+    },
+    "rationale": "直接证据：题目询问本类型的具体校园行为。"
+  },
+  {
+    "id": "Q12",
+    "text": "坐在安静的教室里，即使没有拿出手机，我也会不知不觉打瞌睡。",
+    "primary": "Sleeper",
+    "reverse": false,
+    "weights": {
+      "Sleeper": 2
+    },
+    "rationale": "直接证据：题目询问本类型的具体校园行为。"
+  },
+  {
+    "id": "Q13",
+    "text": "出去玩时，我会专门给景点、街道或沿途片刻拍照留记录。",
+    "primary": "Traveler",
+    "reverse": false,
+    "weights": {
+      "Traveler": 2
+    },
+    "rationale": "直接证据：题目询问本类型的具体校园行为。"
+  },
+  {
+    "id": "Q14",
+    "text": "出门上课前，我会一直磨蹭到必须快走或小跑才能赶上的时候。",
+    "primary": "Runner",
+    "reverse": false,
+    "weights": {
+      "Runner": 2
+    },
+    "rationale": "直接证据：题目询问本类型的具体校园行为。"
+  },
+  {
+    "id": "Q15",
+    "text": "遇到要写或整理的任务时，我会先让AI生成初稿，再决定怎么修改。",
+    "primary": "AIer",
+    "reverse": false,
+    "weights": {
+      "AIer": 2
+    },
+    "rationale": "直接证据：题目询问本类型的具体校园行为。"
+  },
+  {
+    "id": "Q16",
+    "text": "去教室时，我通常会额外留出几分钟，宁愿早到也不想一路赶。",
+    "primary": "Runner",
+    "reverse": true,
+    "weights": {
+      "Runner": -2
+    },
+    "rationale": "反向证据：较高频率降低本类型的对应行为倾向；只计一次反向。"
+  },
+  {
+    "id": "Q17",
+    "text": "在安静、内容重复的课堂上，我通常也能保持清醒，很少需要强撑。",
+    "primary": "Sleeper",
+    "reverse": true,
+    "weights": {
+      "Sleeper": -2
+    },
+    "rationale": "反向证据：较高频率降低本类型的对应行为倾向；只计一次反向。"
+  },
+  {
+    "id": "Q18",
+    "text": "对于有明确截止日期的任务，我通常会提前拆开做，很少留到最后集中赶。",
+    "primary": "DDLer",
+    "reverse": true,
+    "weights": {
+      "DDLer": -2
+    },
+    "rationale": "反向证据：较高频率降低本类型的对应行为倾向；只计一次反向。"
+  },
+  {
+    "id": "Q19",
+    "text": "没有必须出门的事时，我会主动把休息和娱乐都安排在宿舍里。",
+    "primary": "Inner",
+    "reverse": false,
+    "weights": {
+      "Inner": 2
+    },
+    "rationale": "直接证据：题目询问本类型的具体校园行为。"
+  },
+  {
+    "id": "Q20",
+    "text": "即使有空，遇到校园小动物时，我也通常直接走开，不会主动接近。",
+    "primary": "Cater",
+    "reverse": true,
+    "weights": {
+      "Cater": -2
+    },
+    "rationale": "反向证据：较高频率降低本类型的对应行为倾向；只计一次反向。"
+  },
+  {
+    "id": "Q21",
+    "text": "想和某个特别的人多待一会儿时，我会专门安排一次校园散步。",
+    "primary": "Lover",
+    "reverse": false,
+    "weights": {
+      "Lover": 2,
+      "CPDDer": 0.25
+    },
+    "rationale": "直接证据：题目询问本类型的具体校园行为。附加权重仅表示题面明确包含的共享行为。"
+  },
+  {
+    "id": "Q22",
+    "text": "为了腾出时间玩、休息或做个人安排，我曾主动打听或联系过代课的人。",
+    "primary": "Exchanger",
+    "reverse": false,
+    "weights": {
+      "Exchanger": 2
+    },
+    "rationale": "直接证据：题目询问本类型的具体校园行为。"
+  },
+  {
+    "id": "Q23",
+    "text": "课间只有十来分钟时，我也会趴在桌上补一会儿觉。",
+    "primary": "Sleeper",
+    "reverse": false,
+    "weights": {
+      "Sleeper": 2,
+      "Runner": 0.25
+    },
+    "rationale": "直接证据：题目询问本类型的具体校园行为。附加权重仅表示题面明确包含的共享行为。"
+  },
+  {
+    "id": "Q24",
+    "text": "一有连续几天空闲，我就会主动查去外地的交通和路线。",
+    "primary": "Traveler",
+    "reverse": false,
+    "weights": {
+      "Traveler": 2,
+      "Explorer": 0.25
+    },
+    "rationale": "直接证据：题目询问本类型的具体校园行为。附加权重仅表示题面明确包含的共享行为。"
+  },
+  {
+    "id": "Q25",
+    "text": "出门忘带纸巾时，我会先找哪里有供人取用的纸，而不是马上买一包。",
+    "primary": "Paper",
+    "reverse": false,
+    "weights": {
+      "Paper": 2
+    },
+    "rationale": "直接证据：题目询问本类型的具体校园行为。"
+  },
+  {
+    "id": "Q26",
+    "text": "决定吃什么时，我会主动找小西南门附近还没尝过的新店。",
+    "primary": "Explorer",
+    "reverse": false,
+    "weights": {
+      "Explorer": 2
+    },
+    "rationale": "直接证据：题目询问本类型的具体校园行为。"
+  },
+  {
+    "id": "Q27",
+    "text": "明明已经可以睡觉，我还是会为了“再留一点自己的时间”推迟上床。",
+    "primary": "Stay Up Later",
+    "reverse": false,
+    "weights": {
+      "Stay Up Later": 2
+    },
+    "rationale": "直接证据：题目询问本类型的具体校园行为。"
+  },
+  {
+    "id": "Q28",
+    "text": "明明不饿，路过熟悉的烤肠或小吃摊时，我还是会忍不住买一份。",
+    "primary": "Eater",
+    "reverse": false,
+    "weights": {
+      "Eater": 2
+    },
+    "rationale": "直接证据：题目询问本类型的具体校园行为。"
+  },
+  {
+    "id": "Q29",
+    "text": "晚上社交结束后，即使朋友还想续场，我通常也会按原计划回去休息。",
+    "primary": "Outer",
+    "reverse": true,
+    "weights": {
+      "Outer": -2
+    },
+    "rationale": "反向证据：较高频率降低本类型的对应行为倾向；只计一次反向。"
+  },
+  {
+    "id": "Q30",
+    "text": "空闲时即使没有约人，我也常常主动出门走走，不想一直待在宿舍。",
+    "primary": "Inner",
+    "reverse": true,
+    "weights": {
+      "Inner": -2
+    },
+    "rationale": "反向证据：较高频率降低本类型的对应行为倾向；只计一次反向。"
+  },
+  {
+    "id": "Q31",
+    "text": "想认识更多可能聊得来的人时，我会主动加联系方式或发出约聊信号。",
+    "primary": "CPDDer",
+    "reverse": false,
+    "weights": {
+      "CPDDer": 2
+    },
+    "rationale": "直接证据：题目询问本类型的具体校园行为。"
+  },
+  {
+    "id": "Q32",
+    "text": "宿舍安静下来后，即使没有必须赶的任务，我仍会主动开始自己的娱乐或创作。",
+    "primary": "Stay Up Later",
+    "reverse": false,
+    "weights": {
+      "Stay Up Later": 2
+    },
+    "rationale": "直接证据：题目询问本类型的具体校园行为。"
+  },
+  {
+    "id": "Q33",
+    "text": "开始写作或整理任务时，我通常先形成自己的版本，再决定是否使用AI。",
+    "primary": "AIer",
+    "reverse": true,
+    "weights": {
+      "AIer": -2
+    },
+    "rationale": "反向证据：较高频率降低本类型的对应行为倾向；只计一次反向。"
+  },
+  {
+    "id": "Q34",
+    "text": "如果只是为了和心动的人见面、没有别的安排，我通常不会特地出门。",
+    "primary": "Lover",
+    "reverse": true,
+    "weights": {
+      "Lover": -2
+    },
+    "rationale": "反向证据：较高频率降低本类型的对应行为倾向；只计一次反向。"
+  },
+  {
+    "id": "Q35",
+    "text": "朋友晚上临时约局时，即使原本准备在宿舍休息，我也会出门加入。",
+    "primary": "Outer",
+    "reverse": false,
+    "weights": {
+      "Outer": 2,
+      "CPDDer": 0.25
+    },
+    "rationale": "直接证据：题目询问本类型的具体校园行为。附加权重仅表示题面明确包含的共享行为。"
+  },
+  {
+    "id": "Q36",
+    "text": "我会记住校园里常见的小动物，并留意它们最近有没有出现。",
+    "primary": "Cater",
+    "reverse": false,
+    "weights": {
+      "Cater": 2
+    },
+    "rationale": "直接证据：题目询问本类型的具体校园行为。"
+  },
+  {
+    "id": "Q37",
+    "text": "为了多睡几分钟，我会压缩洗漱或去教室路上预留的时间。",
+    "primary": "Runner",
+    "reverse": false,
+    "weights": {
+      "Runner": 2,
+      "Sleeper": 0.5
+    },
+    "rationale": "直接证据：题目询问本类型的具体校园行为。附加权重仅表示题面明确包含的共享行为。"
+  },
+  {
+    "id": "Q38",
+    "text": "带着学习任务坐进自习室后，我仍会打开游戏，想着“先来一局”。",
+    "primary": "Gamer",
+    "reverse": false,
+    "weights": {
+      "Gamer": 2
+    },
+    "rationale": "直接证据：题目询问本类型的具体校园行为。"
+  },
+  {
+    "id": "Q39",
+    "text": "几项作业或部门任务同时压过来时，我经常按“哪件最先到期”临时赶工。",
+    "primary": "DDLer",
+    "reverse": false,
+    "weights": {
+      "DDLer": 2,
+      "Runner": 0.25
+    },
+    "rationale": "直接证据：题目询问本类型的具体校园行为。附加权重仅表示题面明确包含的共享行为。"
+  },
+  {
+    "id": "Q40",
+    "text": "有几天空闲时，即使时间和预算允许，我通常也不会安排去陌生城市。",
+    "primary": "Traveler",
+    "reverse": true,
+    "weights": {
+      "Traveler": -2
+    },
+    "rationale": "反向证据：较高频率降低本类型的对应行为倾向；只计一次反向。"
+  },
+  {
+    "id": "Q41",
+    "text": "收到需要几天完成的任务时，我会先放着，直到截止日期靠近才真正动手。",
+    "primary": "DDLer",
+    "reverse": false,
+    "weights": {
+      "DDLer": 2
+    },
+    "rationale": "直接证据：题目询问本类型的具体校园行为。"
+  },
+  {
+    "id": "Q42",
+    "text": "看到允许免费领取的纸巾或生活用品，我会顺手留一份备用。",
+    "primary": "Paper",
+    "reverse": false,
+    "weights": {
+      "Paper": 2
+    },
+    "rationale": "直接证据：题目询问本类型的具体校园行为。"
+  },
+  {
+    "id": "Q43",
+    "text": "即使是自己能完成的小任务，我也会先问AI，省去自己从零开始的步骤。",
+    "primary": "AIer",
+    "reverse": false,
+    "weights": {
+      "AIer": 2
+    },
+    "rationale": "直接证据：题目询问本类型的具体校园行为。"
+  },
+  {
+    "id": "Q44",
+    "text": "比起参加一大群人的热闹活动，我会把空闲时间留给和某个人单独相处。",
+    "primary": "Lover",
+    "reverse": false,
+    "weights": {
+      "Lover": 2
+    },
+    "rationale": "直接证据：题目询问本类型的具体校园行为。"
+  },
+  {
+    "id": "Q45",
+    "text": "到了原定睡觉时间，即使手头的娱乐正有意思，我通常也会结束它。",
+    "primary": "Stay Up Later",
+    "reverse": true,
+    "weights": {
+      "Stay Up Later": -2
+    },
+    "rationale": "反向证据：较高频率降低本类型的对应行为倾向；只计一次反向。"
+  },
+  {
+    "id": "Q46",
+    "text": "上课和自己想做的事撞时间时，我会考虑找别人代课，把时间空出来。",
+    "primary": "Exchanger",
+    "reverse": false,
+    "weights": {
+      "Exchanger": 2
+    },
+    "rationale": "直接证据：题目询问本类型的具体校园行为。"
+  },
+  {
+    "id": "Q47",
+    "text": "热闹的集体活动结束后，我会留一段不见人的独处时间恢复精力。",
+    "primary": "Inner",
+    "reverse": false,
+    "weights": {
+      "Inner": 2,
+      "Outer": -0.25
+    },
+    "rationale": "直接证据：题目询问本类型的具体校园行为。附加权重仅表示题面明确包含的共享行为。"
+  },
+  {
+    "id": "Q48",
+    "text": "临时需要生活用品时，我通常直接买齐，不会特地找免费替代品。",
+    "primary": "Paper",
+    "reverse": true,
+    "weights": {
+      "Paper": -2
+    },
+    "rationale": "反向证据：较高频率降低本类型的对应行为倾向；只计一次反向。"
+  }
+]
